@@ -8,11 +8,11 @@ tags: life thinking
 ## 启 
 一直以来想着要写博客，结果前年在博客大巴上写了几篇后就彻底烂尾。当然首要原因是我很懒，次要原因是博客大巴完全是给文艺青年用的啊，码农贴点代码公式什么的实在是过于麻烦（其实还是懒啊！）。所以，时隔两年，鄙人，使用互联网思维（吐），用github+jekyll+markdown建站重新开始写博客啦。说起来好像很厉害的样子，其实不过是申请了一个域名，对别人的模板做一点点修改，再把网站资源托管到github上而已。相关的内容别人早已总结过，请看：
 
-* [理想的写作环境：Git+Github+Markdown+Jekyll][1‎]
-* [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门][2]
-* [使用Github Pages建独立博客][3]    
+- [理想的写作环境：Git+Github+Markdown+Jekyll](http://www.yangzhiping.com/tech/writing-space.html)
+- [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门] [2]
+- [使用Github Pages建独立博客] [3]    
 
-另外本站点的模板来自于[BeiYuu.com][4]，所有功劳归功于他。
+另外本站点的模板来自于[BeiYuu.com] [4]，所有功劳归功于他。
 ## 承
 重写博客的另一个契机是研究生阶段的结束。说起来学生生涯已经正式结束了，不过除了与各位同学的暂别，感触并不是特别多。毕竟这两年多也没有什么遗憾，上半场才刚过半而已。但即将走上工作岗位，对于未来也不是没有设想。只是我觉得日子是一个马尔科夫过程，一环接一环，设计一个固定的路线图是一件困难的事情，所以我希望可以少一些想象、多一些总结。此外这两年多以来，我发现我对于技术的学习有些碎片化并且缺乏深度，写博客也是为了逼迫我可以更深入和连贯的思考问题。虽然博客已经开始成为互联网时代的古董，但要论锻炼写作能力、求职、记录等各个方面，博客还是有不可替代的地方的。
 ## 没有转
@@ -21,7 +21,6 @@ tags: life thinking
 
 最后的PS：点左上角的+号可以在别的网站上找到我哦。
 
-[1]: http://www.yangzhiping.com/tech/writing-space.html
 [2]: http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html
-[3]: http://beiyuu.com/github-pages/
-[4]: http://beiyuu.com/
+[3]: http://beiyuu.com/github-pages
+[4]: http://beiyuu.com
