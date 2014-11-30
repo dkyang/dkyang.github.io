@@ -27,6 +27,6 @@ tags: 文献阅读 深度学习 计算机视觉 CNN
 
 整体的模型基于**Caffe**实现，在4块GPU上通过数据并行化完成训练，训练单个模型需要2到3周的时间。
 
-![Result](/images/very_deep2.jpg)
+![Result](/images/very-deep-cnn/very_deep2.jpg)
 
 从上述实验结果可以看到本文的模型VGG超过了2012及2013年的最好结果，并且与今年的winner GoogLeNet效果相当。

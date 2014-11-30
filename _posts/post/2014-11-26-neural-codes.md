@@ -17,7 +17,7 @@ tags: 文献阅读 深度学习 计算机视觉 图像检索 CNN
 ## 降维
 对于大规模图像检索来说，只有较低维度的特征才在实际应用中有意义，而CNN的激励输出和几种人工特征的维数都高达几千维，因此必须进行降维。作者利用PCA对这几种特征降维发现，虽然重训练后的neural codes相对人工特征并没有太多优越性，但PCA降维后的neural codes在三个数据集上都得到了比同维度的人工特征更好的结果。另外作者也提出用匹配图像进行判别式降维，相对PCA效果更好。
 
-![Result_Dimension_Reduction](/images/neural_codes2.jpg)
+![Result_Dimension_Reduction](/images/neural-codes/neural_codes2.jpg)
 ## 想法
 这篇paper从理论上并没有什么创新的地方，不过与我们的实际应用很贴近。启发和问题如下：
 
