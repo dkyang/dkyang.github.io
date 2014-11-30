@@ -1,3 +1,10 @@
+---
+layout:     post
+title:      Bengio Deep Learning 阅读笔记 —— Chapter 6 Feedforward Deep Networks
+category:   post
+description: 第6章阅读笔记
+tags: 深度学习 
+---
 # Bengio Deep Learning 阅读笔记 —— Chapter 6 Feedforward Deep Networks
 ## 随便说两句
 Yoshua Bengio大神最近把即将出版的deep learning新书放在了网上，去软件所参加的读书会也指定了这本书作为阅读材料。前段时间看了一点，现在还是赶紧看看赶上软件所的进度吧。
@@ -35,14 +42,14 @@ Yoshua Bengio大神最近把即将出版的deep learning新书放在了网上，
 这部分介绍了一些优化方法，没有什么特别值得记录的。
 
 ## 6.3 Flow Graphs and 反向传播
-这部分对反向传播的介绍还是挺不错的。反向传播的基本思想就是结合偏导数的链式法则和神经网络参数层与层之间的直接依赖性，用类似动态规划的方式，从输出向输入逐层计算偏导数。层与层之间变量的依赖可以用flow graph来表示，（待解释流图和反向传播的关系）
+这部分对反向传播的介绍还是挺不错的。反向传播的基本思想就是结合偏导数的链式法则和神经网络参数层与层之间的直接依赖性，用类似动态规划的方式，从输出向输入逐层计算偏导数。层与层之间变量的依赖可以用flow graph来表示。flow graph每个节点都是一个可通过其他节点计算得到的量，节点满足表示计算顺序的偏序，这样我们就可以按照预定的顺序把flow graph每个节点表示的值计算出来。可以看到flow graph的计算和后向传播过程是很相似的，每个节点代表神经网络中unit要计算的偏导，然后按顺序通过依赖unit的偏导计算当前unit的偏导数。
 
-## 6.4 
-线性模型无法表示复杂函数。
+## 6.4 Universal Approximation Properties and Depth
+线性模型无法表示复杂的函数，而Universal Approximation Properties表明深度为2的神经网络可以近似任意平滑函数，只是需求的隐节点数目可能非常多。
 
-深度也是**先验**。
+机器学习领域存在no-free-lunch理论，在无任何先验的情况下，没有算法可以超过任意的ground truth。神经网络中最大的先验就是目标函数可以被“较深”的简单函数表示，也就是说特征具有层次性，高层特征可以有低层特征组合而成。这对应神经网络中的layer的数目，即深度。在深度足够的情况下，神经网络可以用较少的隐节点近似各种函数，也具有更好地推广性。这就从**先验**的角度解释了神经网络的**depth**问题
 
-## 6.5 
+## 6.5 Feature / Representation Learning
 kernel和特征工程都可视为一种先验。
 
 
